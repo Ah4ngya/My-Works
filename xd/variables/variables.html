@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h4 >Cart Quantity:</h4>
+  <button onclick="console.log(`Cart Quantity: ${cartQuantity}`)">Show Quantity</button>
+  <button onclick="console.log(cartQuantity < cartMaximum && cartQuantity + 1 <= cartMaximum ? `${cartQuantity += 1} ` && console.log(`Added to cart`)  : console.log('Cart is full!'))">
+    Add to Cart
+  </button>
+  <button onclick="console.log(cartQuantity < cartMaximum && cartQuantity + 2 <= cartMaximum ? `${cartQuantity += 2} ` && console.log(`Added to cart 2 times`)  : console.log('Cart is full!'))">
+    +2
+  </button>
+  <button onclick="console.log(cartQuantity < cartMaximum && cartQuantity + 3 <= cartMaximum ? `${cartQuantity += 3} ` && console.log(`Added to cart 3 times`)  : console.log('Cart is full!'))">
+    +3
+  </button>
+   <button onclick="console.log(cartQuantity < cartMaximum && cartQuantity + 4 <= cartMaximum ? `${cartQuantity += 4} ` && console.log(`Added to cart 4 times`)  : console.log('Cart is full!'))">
+    +4
+  </button>
+   <button onclick="console.log(cartQuantity < cartMaximum && cartQuantity + 5 <= cartMaximum ? `${cartQuantity += 5} ` && console.log(`Added to cart 5 times`)  : console.log('Cart is full!'))">
+    +5
+  </button>
+   <button onclick="console.log(cartQuantity > cartMinimum ? `${cartQuantity --}` && console.log('Removed 1 item') : console.log('Your cart is empty'))">
+    Remove 1 item
+  </button>
+  <button onclick="console.log(cartQuantity > cartMinimum ? `${cartQuantity -= 2}` && console.log('Removed 2 items') : console.log('Your cart is empty'))">
+    Remove 2 item
+  </button>
+  <button onclick="console.log(cartQuantity > cartMinimum ? `${cartQuantity -= 3}` && console.log('Removed 3 items') : console.log('Your cart is empty'))">
+    Remove 3 item
+  </button>
+  
+  <button onclick="console.log(`Cart has been reset`),`${cartQuantity=0}`">
+    Reset Cart
+  </button>
+  <script src="java.js"></script>
+</body>
+</html>

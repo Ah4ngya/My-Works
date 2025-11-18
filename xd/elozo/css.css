@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(2, 94, 17);
+    flex: auto;
+
+}
+button {
+    color:rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    background-color: rgb(200, 255, 0);
+    border-width: 3px;
+    border-color: black;
+    border-style:solid; 
+    
+}
+
+.joke {
+    color: black;
+    background-color: rgb(150, 118, 13);
+}

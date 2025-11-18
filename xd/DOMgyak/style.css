@@ -1,0 +1,51 @@
+body  {
+  background-color: rgb(90, 90, 90);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  color: aliceblue;
+}
+.subscribe-button {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 20px ;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.subscribed{
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px ;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.calcbutton{
+  background-color: rgb(72, 180, 72);
+  border: 1px;
+  padding-top: 13px;
+  padding-bottom:12px; 
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+}
+/*belseje padding külseje margin
+*/
+.cost-area{
+  font-size: 13px;
+  padding: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="gamearea.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evolution of Web Development</title>
+</head>
+<body>
+
+  <h1>WEB PROG EVOLUTION</h1>
+
+  <div class="main-container">
+
+    <div class="left-side">
+      <table class="gamedata">
+        <tr><td>Player:</td></tr>
+        <tr><td>Difficulty:</td></tr>
+        <tr><td>Time: <span data-timer></span></td></tr>
+        <tr><td>Score: <span data-score>000000</span></td></tr>
+        <tr><td><button data-reveal-btn class="drawbutton">Draw</button></td></tr>
+      </table>
+
+      <table class="scoretable">
+        <tr><td>scripting: * 05p = 10</td></tr>
+        <tr><td>styling: * 05p = 15</td></tr>
+        <tr><td>markup * 05p = 05</td></tr>
+        <tr><td>lang c * 10p = 10</td></tr>
+        <tr><td>ide * 10p = 20</td></tr>
+        <tr><td>audio * 10p = 10</td></tr>
+        <tr><td>video * 10p = 30</td></tr>
+        <tr><td>image * 15p = 30</td></tr>
+        <tr><td>cms * 15p = 45</td></tr>
+        <tr><td>db * 15p = 15</td></tr>
+      </table>
+    </div>
+
+    <div class="game-grid-section">
+      <div data-grid-container class="grid-area"></div>
+    </div>
+
+    <div class="right-side">
+      <div class="leaderboard-container"></div
+      </div>
+    </div>
+
+  </div>
+
+  <script defer src="eventsandanimations.js"></script>
+  <script src="evolutions.js"></script>
+
+</body>
+</html>
